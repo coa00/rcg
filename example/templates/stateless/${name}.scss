@@ -1,0 +1,7 @@
+// common
+@import '../../_settings/const';
+
+.{{=it.prefix}}-{{=it.name.paramCase}} {
+  &__element {
+  }
+}
