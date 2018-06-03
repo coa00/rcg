@@ -1,0 +1,32 @@
+{
+  "name": "rcg",
+  "version": "0.0.1",
+  "description": "react components generator from template file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "bin": {
+    "rcg": "index.js"
+  },
+  "keywords": [
+    "code",
+    "generate"
+  ],
+  "author": "cohei aoki",
+  "license": "MIT",
+  "dependencies": {
+    "change-case": "^3.0.2",
+    "dot": "^1.1.2",
+    "loglevel": "^1.6.1",
+    "meow": "^5.0.0",
+    "output-file-sync": "^2.0.1",
+    "read-pkg": "^3.0.0",
+    "read-text-file": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-react": "^7.8.2"
+  }
+}
