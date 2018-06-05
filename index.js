@@ -6,10 +6,13 @@ const rcg = require("./lib");
 
 const cli = meow(`
 	Usage
-	  $ rcg <input>
+	  $ rcg <name>
 
 	Options
-	  --template, -t  type
+	  --template or -t template path
+	  --prefix or -p prefix
+	  --props ex. --props name,content
+	  --dest or -d output directory
 
 	Examples
 	  $ rcg button -d ./atoms -t stateful --props mode  --prefix a
@@ -37,4 +40,4 @@ const cli = meow(`
   }
 });
 
-rcg(cli.input[0], cli.flags);
+rcg(cli.input[0],cli.input[1], cli.flags);
