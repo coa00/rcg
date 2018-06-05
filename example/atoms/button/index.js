@@ -13,7 +13,7 @@ const enhance = compose(
 //  })
 );
 
-const Button = ({ mode }) => {
+const Button = ({ text,children }) => {
   const classes = new BEMHelper({
     name: "button",
     prefix: "a-"
@@ -27,7 +27,11 @@ const Button = ({ mode }) => {
 
 
 Button.propTypes = {
-  mode: PropTypes.any
+  
+    text: PropTypes.any,
+  
+    children: PropTypes.any,
+  
 };
 
 export { Button };

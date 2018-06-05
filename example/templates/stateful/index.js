@@ -27,7 +27,9 @@ const {{=it.name.pascalCase}} = ({ {{=it.props.toString()}} }) => {
 
 
 {{=it.name.pascalCase}}.propTypes = {
-  {{~it.props :value:index}}{{=value}}: PropTypes.any, {{~}}
+  {{~it.props :value:index}}
+    {{=value}}: PropTypes.any,
+  {{~}}
 };
 
 export { {{=it.name.pascalCase}} };

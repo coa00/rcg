@@ -4,7 +4,7 @@
   "description": "react components generator from template file.",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "bin": {
     "rcg": "index.js"
@@ -13,6 +13,11 @@
     "code",
     "generate"
   ],
+  "jest": {
+    "setupFiles": [
+      "jest-plugin-fs/setup"
+    ]
+  },
   "author": "cohei aoki",
   "license": "MIT",
   "dependencies": {
@@ -27,6 +32,8 @@
   "devDependencies": {
     "eslint": "^4.19.1",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-react": "^7.8.2"
+    "eslint-plugin-jest": "^21.17.0",
+    "eslint-plugin-react": "^7.8.2",
+    "jest": "^23.1.0"
   }
 }
