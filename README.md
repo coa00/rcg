@@ -1,6 +1,8 @@
 # rcg
 react components generator from template file.
 
+
+
 ## install
 
 ```
@@ -13,12 +15,26 @@ npm i rcg -D
 rcg name templatePath
 ```
 
+## template syntax
 
-## option
+ref [ doT](http://olado.github.io/doT/)
 
-### template
+### Built-in variables
 
-template path
+#### paramCase name
+
+{{=it.name.paramCase}}
+
+
+coffeeCup > coffee-cup
+
+#### pascalCase name
+
+{{=it.name.pascalCase}}
+
+
+test-case > TestCase
+
 
 
 ### props (string)
@@ -34,6 +50,7 @@ prefix
 output directory path
 
 ## package.json
+
 
 #### root template path
 

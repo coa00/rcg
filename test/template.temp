@@ -1,0 +1,12 @@
+pascalCase: {{=it.name.pascalCase}}
+
+test
+
+paramCase: {{=it.name.paramCase}}
+
+test
+
+{{=it.name.pascalCase}}.propTypes = {
+{{~it.props :value:index}}{{=value}}: PropTypes.any,
+  {{~}}
+};

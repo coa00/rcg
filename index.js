@@ -36,8 +36,11 @@ const cli = meow(`
     dest:{
       type:"string",
       alias:"d"
+    },
+    destDirName:{
+      type:"string",
     }
   }
 });
 
-rcg(cli.input[0],cli.input[1], cli.flags);
+rcg(cli.input[0],cli.input[1], cli.pkg, cli.flags);
