@@ -10,5 +10,8 @@
     "templates": "./templates/"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "rcg": "github:coa00/rcg"
+  }
 }
