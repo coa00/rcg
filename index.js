@@ -17,7 +17,7 @@ const cli = meow(`
 	  --destDirName ex. ${name.paramCase}
 
 	Examples
-	  $ template-code-gen button -d ./atoms -t stateful --props mode  --prefix a
+	  $ template-code-gen button ./stateful -d ./atoms  --props mode  --prefix a
 `, {
   flags: {
     prefix: {
