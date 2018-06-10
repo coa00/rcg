@@ -1,6 +1,6 @@
 {
   "name": "template-code-gen",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "code generator from template file.",
   "main": "index.js",
   "scripts": {
@@ -8,8 +8,8 @@
     "version": "npm run test",
     "postversion": "git push && git push --tags"
   },
-  "repository" : {
-    "url" : "https://github.com/coa00/template-code-gen"
+  "repository": {
+    "url": "https://github.com/coa00/template-code-gen"
   },
   "bin": {
     "template-code-gen": "index.js"
