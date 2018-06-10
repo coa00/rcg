@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "bin": {
-    "rcg": "index.js"
+    "template-code-gen": "index.js"
   },
   "keywords": [
     "code",

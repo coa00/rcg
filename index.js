@@ -7,7 +7,7 @@ const readPkg = require("read-pkg");
 
 const cli = meow(`
 	Usage
-	  $ tcg <name>
+	  $ template-code-gen <name>
 
 	Options
 	  --template or -t template path
@@ -16,7 +16,7 @@ const cli = meow(`
 	  --dest or -d output directory
 
 	Examples
-	  $ tcg button -d ./atoms -t stateful --props mode  --prefix a
+	  $ template-code-gen button -d ./atoms -t stateful --props mode  --prefix a
 `, {
   flags: {
     prefix: {
