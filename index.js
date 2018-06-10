@@ -14,6 +14,7 @@ const cli = meow(`
 	  --prefix or -p prefix
 	  --props ex. --props name,content
 	  --dest or -d output directory
+	  --destDirName ex. ${name.paramCase}
 
 	Examples
 	  $ template-code-gen button -d ./atoms -t stateful --props mode  --prefix a
