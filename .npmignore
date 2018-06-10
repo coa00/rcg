@@ -2,3 +2,4 @@ __mocks__/*
 example/*
 test/*
 .eslintrc.js
+.idea

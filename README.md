@@ -1,6 +1,6 @@
-# rcg
-react components generator from template file.
+# template-code-gen
 
+code generate from your template file.
 
 
 ## install
@@ -37,9 +37,9 @@ test-case > TestCase
 
 
 
-### props (string)
+### props (csv)
 
-react path
+props
 
 ### prefix (string)
 
@@ -55,7 +55,7 @@ output directory path
 #### root template path
 
 ```json
-  "rcg": {
+  "tcg": {
     "templates": "./templates/"
   },
 ```

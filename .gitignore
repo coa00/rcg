@@ -69,7 +69,7 @@ typings/
 .serverless
 
 
-.idea/*
+.idea
 
 test/output/*
 

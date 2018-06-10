@@ -1,7 +1,7 @@
 {
-  "name": "rcg",
+  "name": "template-code-gen",
   "version": "0.0.1",
-  "description": "react components generator from template file.",
+  "description": "code generator from template file.",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -11,6 +11,8 @@
   },
   "keywords": [
     "code",
+    "react",
+    "template",
     "generate"
   ],
   "author": "cohei aoki",

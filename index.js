@@ -2,12 +2,12 @@
 "use strict";
 
 const meow = require("meow");
-const rcg = require("./lib");
+const tcg = require("./lib");
 const readPkg = require("read-pkg");
 
 const cli = meow(`
 	Usage
-	  $ rcg <name>
+	  $ tcg <name>
 
 	Options
 	  --template or -t template path
@@ -16,7 +16,7 @@ const cli = meow(`
 	  --dest or -d output directory
 
 	Examples
-	  $ rcg button -d ./atoms -t stateful --props mode  --prefix a
+	  $ tcg button -d ./atoms -t stateful --props mode  --prefix a
 `, {
   flags: {
     prefix: {
@@ -49,4 +49,4 @@ const cli = meow(`
 
 const pkg = readPkg.sync(process.cwd());
 
-rcg(cli.input[0],cli.input[1], pkg, cli.flags);
+tcg(cli.input[0],cli.input[1], pkg, cli.flags);
