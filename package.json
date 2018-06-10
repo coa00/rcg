@@ -4,7 +4,12 @@
   "description": "code generator from template file.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "version": "npm run test",
+    "postversion": "git push && git push --tags"
+  },
+  "repository" : {
+    "url" : "https://github.com/coa00/template-code-gen"
   },
   "bin": {
     "template-code-gen": "index.js"
