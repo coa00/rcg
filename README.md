@@ -1,5 +1,7 @@
 # template-code-gen
 
+[![Build Status](https://travis-ci.org/coa00/template-code-gen.svg?branch=master)](https://travis-ci.org/coa00/template-code-gen)
+
 code generate from your template file.
 
 
