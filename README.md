@@ -6,13 +6,13 @@ code generate from your template file.
 ## install
 
 ```
-npm i rcg -D
+npm i template-code-gen -D
 ```
 
 ## usage
 
 ```
-rcg name templatePath
+template-code-gen name templatePath
 ```
 
 ## template syntax
