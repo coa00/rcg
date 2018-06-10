@@ -6,12 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "rcg": {
+  "tcg": {
     "templates": "./templates/"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "rcg": "github:coa00/rcg"
+    "template-code-gen": "github:coa00/template-code-gen"
   }
 }
