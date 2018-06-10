@@ -3,6 +3,7 @@
 
 const meow = require("meow");
 const rcg = require("./lib");
+const readPkg = require("read-pkg");
 
 const cli = meow(`
 	Usage
@@ -39,8 +40,13 @@ const cli = meow(`
     },
     destDirName:{
       type:"string",
+    },
+    debug:{
+      type:"boolean",
     }
   }
 });
 
-rcg(cli.input[0],cli.input[1], cli.pkg, cli.flags);
+const pkg = readPkg.sync(process.cwd());
+
+rcg(cli.input[0],cli.input[1], pkg, cli.flags);
