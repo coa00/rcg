@@ -12,6 +12,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "template-code-gen": "github:coa00/template-code-gen"
+    "template-code-gen": "0.0.9"
   }
 }
