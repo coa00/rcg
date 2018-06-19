@@ -38,8 +38,9 @@ export default {{=it.name.pascalCase}};
 ```
 
 command
+
 ```
-tcg test stateless -d ./atoms --props message,button --prefix a
+template-code-gen test stateless -d ./atoms --props message,button --prefix a
 ```
 
 outputfile
