@@ -88,6 +88,34 @@ npm i template-code-gen -D
 template-code-gen name templatePath
 ```
 
+## command option
+
+### props (csv)
+
+react props
+
+### prefix (string)
+
+prefix
+
+#### dest (string)
+
+output directory path
+
+#### destDirName (string)
+
+output directory name
+
+## package.json
+
+#### root template path
+
+```json
+  "tcg": {
+    "templates": "./templates/"
+  },
+```
+
 ## template syntax
 
 ref [ doT](http://olado.github.io/doT/)
@@ -108,27 +136,11 @@ coffeeCup > coffee-cup
 
 test-case > TestCase
 
+#### prefix
+
+{{=it.name.pascalCase}}
 
 
-### props (csv)
-
-props
-
-### prefix (string)
-
-prefix
-
-#### dest (string)
-
-output directory path
-
-## package.json
+test-case > TestCase
 
 
-#### root template path
-
-```json
-  "tcg": {
-    "templates": "./templates/"
-  },
-```

@@ -12,6 +12,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "template-code-gen": "0.0.9"
+    "template-code-gen": "0.0.11"
   }
 }

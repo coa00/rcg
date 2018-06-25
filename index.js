@@ -10,7 +10,6 @@ const cli = meow(`
 	  $ template-code-gen <name>
 
 	Options
-	  --template or -t template path
 	  --prefix or -p prefix
 	  --props ex. --props name,content
 	  --dest or -d output directory
@@ -23,14 +22,6 @@ const cli = meow(`
     prefix: {
       type: "string",
       alias:"p"
-    },
-    template: {
-      type: "string",
-      alias:"t"
-    },
-    output:{
-      type: "array",
-      alias:"o"
     },
     props: {
       type: "array"
