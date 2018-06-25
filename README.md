@@ -106,6 +106,9 @@ output directory path
 
 output directory name
 
+
+If you want to specify a name, write name.pascalCase or name.paramCase.
+
 ## package.json
 
 #### root template path
@@ -138,9 +141,13 @@ test-case > TestCase
 
 #### prefix
 
-{{=it.name.pascalCase}}
+prefix value
 
+{{=it.prefix}}
 
-test-case > TestCase
+#### props(array)
 
+props value
+
+{{~it.props :value:index}} {{=value}} {{~}}
 
